@@ -4,18 +4,21 @@ header{
     position: fixed;
     top: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     background-color: rgb(37, 37, 37);
+    -webkit-box-shadow: 0px 10px 5px 5px rgba(37,37,37,1);
+    -moz-box-shadow: 0px 10px 5px 5px rgba(37,37,37,1);
+    box-shadow: 0px 10px 5px 5px rgba(37,37,37,1);
 }
 header a {
-    width: 80px;
+    width: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 header img {
-    width: auto;
     height: 100%;
 }
 .displayNone {
@@ -33,6 +36,7 @@ header img {
     color: rgb(233, 233, 233);
     background-color: rgb(37, 37, 37);
     transition: 1s;
+
 }
 .contactoScreen #headerContacto{
     height: 10vh;

@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="./css/contacto.css">
     <link rel="stylesheet" href="./css/secciones.css">
     <link rel="stylesheet" href="./css/misAportes.css">
+    <link rel="stylesheet" href="./css/sobreMi.css">
 </head>
 <body>
-    <header>
+    <header onclick="abrirContacto();">
         <img src="./images/miFoto.jpg" alt="foto raul acosta desarrollador web front end">
-        <a href="#" onclick="abrirContacto();">Contacto</a>
+        <a href="#" >Contacto</a>
     </header>
     <section>
         <article id="primerArticulo">
@@ -97,8 +98,15 @@
         </article>
         <article id="tercerArticulo">
             <h3>Sobre mi</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, rem aperiam, quam architecto, animi nam ab facere quidem ullam omnis consequatur. Similique animi voluptatem libero rem non voluptates suscipit voluptatum.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet molestias tempora eaque placeat ipsum dolorem ipsam, libero nulla? Tenetur quia sequi modi non accusantium delectus illum exercitationem tempore nulla. Nobis?</p>
+            <p>Soy un ingeniero en sistemas, desarrollador de software especializado en el desarrollo web de parte del front.</p>
+            <p>Continuamente me capacito en tecnologías como React.js, React Native, Node.js, bases de datos y más.</p>
+            <p>Desarrollo aplicaciones multiplataforma, por lo que funcionan en el navegador y pueden ser instaladas en Windows, MAC, Android e IOS.</p>
+            <p>Estudio y tengo conocimientos y la capacidad de involucrarme en el Backend y en desarrollo de aplicaciones movile nativas.</p>
+            <p>Actualmente trabajo en Softtek, empresa que proporciona servicios de tecnología.</p>
+            <p>Mi objetivo es trabajar en proyectos innovadores y de alto impacto en el mundo.</p>
+        </article>
+        <article id="cuartoArticulo">
+            <canvas id="canvas" ></canvas>	
         </article>
         <article id="contactoScreen" class="displayNone">
             <div id="headerContacto" onclick="cerrarContacto();">
@@ -114,5 +122,6 @@
     </section>
     <footer></footer>
     <script src="./js/abrirContacto.js"></script>
+    <script src="./js/canvas.js"></script>
 </body>
 </html>
