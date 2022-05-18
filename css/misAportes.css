@@ -33,7 +33,7 @@
 }
 #segundoArticulo #proyectos .proyecto div{
     /* Atención!! se refiere a la parte de contenido dentro del recuadro */
-    height: 120px;
+    height: 150px;
     display: flex;
     align-items:center;
     flex-wrap: wrap;
