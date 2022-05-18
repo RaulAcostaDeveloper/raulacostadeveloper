@@ -1,0 +1,28 @@
+#primerArticulo{
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#primerArticulo *{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#segundoArticulo{
+    min-height: 90vh;
+    text-align: center;
+    color: white;
+    background-color: rgb(52, 52, 52);
+}
+#tercerArticulo{
+    min-height: 90vh;
+    text-align: center;
+}
+#tercerArticulo *{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}

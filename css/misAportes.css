@@ -1,0 +1,41 @@
+#segundoArticulo h3 {
+    padding-top: 50px;
+}
+#segundoArticulo #proyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#segundoArticulo #proyectos .proyecto{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+    width: 270px;
+    color:  rgb(233, 233, 233);
+    background-color: rgb(52, 52, 52);
+    transition: 0.5s;
+}
+#segundoArticulo #proyectos .proyecto:hover{
+    /* background-color: rgb(61, 61, 61); */
+    color:rgb(52, 52, 52);
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(52, 52, 52);
+    padding: 10px;
+    transition: 0.5s;
+}
+#segundoArticulo #proyectos .proyecto img{
+    width: 95%;
+    border: 1px solid rgb(52, 52, 52);
+    border-radius: 4px;
+    padding: 5px;
+}
+#segundoArticulo #proyectos .proyecto div{
+    /* Atención!! se refiere a la parte de contenido dentro del recuadro */
+    height: 120px;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
