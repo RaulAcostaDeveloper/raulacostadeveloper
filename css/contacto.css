@@ -57,7 +57,13 @@ header img {
     align-items: center;
     justify-content: center;
 }
-.contactoScreen #articleContacto img{
+.contactoScreen #articleContacto a {
     width: 100px;
+    height: 100px;
     margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.contactoScreen #articleContacto img{
+    width: 100%;
 }

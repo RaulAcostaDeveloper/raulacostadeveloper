@@ -1,3 +1,6 @@
 #tercerArticulo h3{
     padding-top: 50px;
 }
+#tercerArticulo a{
+    color: rgb(255, 176, 6);
+}
