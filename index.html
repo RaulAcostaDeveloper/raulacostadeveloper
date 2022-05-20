@@ -10,21 +10,22 @@
     <link rel="stylesheet" href="./css/secciones.css">
     <link rel="stylesheet" href="./css/misAportes.css">
     <link rel="stylesheet" href="./css/sobreMi.css">
+    <link rel="stylesheet" href="./css/primerArticulo.css">
 </head>
 <body>
     <header onclick="abrirContacto();">
-        <img src="./images/miFoto.jpg" alt="foto raul acosta desarrollador web front end">
         <a href="#" >Contacto</a>
     </header>
     <section>
         <article id="primerArticulo">
+            <img onclick="reproducirClick()" style="margin-top: 25vh" src="./images/miFoto.jpg" alt="foto raul acosta desarrollador web front end">
             <h1>Raúl Acosta</h1>
             <h2>Desarrollador Web Front End</h2>
         </article>
         <article id="segundoArticulo">
             <h3>Mis aportes</h3>
             <div id="proyectos">
-                <a target="_blank" href="https://micontroldegastos.com/">
+                <a onclick="reproducirPop()" target="_blank" href="https://micontroldegastos.com/">
                     <div class="proyecto">
                         <img src="./images/principalMiControlDeGastos.png" alt="Captura del proyecto mencionado">
                         <div>
@@ -34,7 +35,7 @@
                         </div>
                     </div>
                 </a>
-                <a target="_blank" href="https://github.com/RaulAcostaDeveloper/BookFriend">
+                <a onclick="reproducirPop()" target="_blank" href="https://github.com/RaulAcostaDeveloper/BookFriend">
                     <div class="proyecto">
                         <img src="./images/principalBookFriend.png" alt="Captura del proyecto mencionado">
                         <div>
@@ -44,7 +45,7 @@
                         </div>
                     </div>
                 </a>
-                <a target="_blank" href="https://asaderodelabuelo.com/">
+                <a onclick="reproducirPop()" target="_blank" href="https://asaderodelabuelo.com/">
                     <div class="proyecto">
                         <img src="./images/principalAsadero.png" alt="Captura del proyecto mencionado">
                         <div>
@@ -54,7 +55,7 @@
                         </div>
                     </div>
                 </a>
-                <a target="_blank" href="https://raulacosta95.github.io/Pagina_Presentacion/">
+                <a onclick="reproducirPop()" target="_blank" href="https://raulacosta95.github.io/Pagina_Presentacion/">
                     <div class="proyecto">
                         <img src="./images/paginaPresentacion.png" alt="Captura del proyecto mencionado">
                         <div>
@@ -64,7 +65,7 @@
                         </div>
                     </div>
                 </a>
-                <a target="_blank" href="https://raulacosta95.github.io/BlackHair_Page/">
+                <a onclick="reproducirPop()" target="_blank" href="https://raulacosta95.github.io/BlackHair_Page/">
                     <div class="proyecto">
                         <img src="./images/blackHair.png" alt="Captura del proyecto mencionado">
                         <div>
@@ -74,7 +75,7 @@
                         </div>
                     </div>
                 </a>
-                <a target="_blank" href="https://raulacosta95.github.io/AlarmaOnline/">
+                <a onclick="reproducirPop()" target="_blank" href="https://raulacosta95.github.io/AlarmaOnline/">
                     <div class="proyecto">
                         <img src="./images/alarmaOnline.png" alt="Captura del proyecto mencionado">
                         <div>
@@ -84,7 +85,7 @@
                         </div>
                     </div>
                 </a>
-                <a target="_blank" href="https://raulacosta95.github.io/KickHisAssGame/">
+                <a onclick="reproducirPop()" target="_blank" href="https://raulacosta95.github.io/KickHisAssGame/">
                     <div class="proyecto">
                         <img src="./images/juegoSencillo.png" alt="Captura del proyecto mencionado">
                         <div>
@@ -104,7 +105,7 @@
             <p>Estudio y tengo conocimientos y la capacidad de involucrarme en el Backend y en desarrollo de aplicaciones movile nativas.</p>
             <p>Actualmente trabajo en Softtek, empresa que proporciona servicios de tecnología.</p>
             <p>Mi objetivo es trabajar en proyectos innovadores y de alto impacto en el mundo.</p>
-            <a target="_blank" href="./curriculum.html">Accede al currículum vitae.</a>
+            <a onclick="reproducirPop()" target="_blank" href="./curriculum.html">Accede al currículum vitae.</a>
         </article>
         <article id="cuartoArticulo">
             <canvas id="canvas" ></canvas>	
@@ -125,5 +126,6 @@
     <footer></footer>
     <script src="./js/abrirContacto.js"></script>
     <script src="./js/canvas.js"></script>
+    <script src="./js/sonidos.js"></script>
 </body>
 </html>
