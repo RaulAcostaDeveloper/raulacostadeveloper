@@ -16,9 +16,9 @@
     text-align: center;
 }
 #tercerArticulo *{
-    width: 100%;
+    /* width: 100%;
     height: auto;
-    text-align: center;
+    text-align: center; */
 }
 #cuartoArticulo #canvas{
     cursor:all-scroll;
