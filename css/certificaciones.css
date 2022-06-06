@@ -12,12 +12,17 @@
 }
 .certificacion img{
     height: 150px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.certificacion img:hover, .certificacion img:active {
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.75);
+    transition: 0.5s;
 }
 .certificacion *{
     width: 100%;
-}
-.certificacion:hover, .certificacion:active{
-    background-color: rgb(52, 52, 52);
-    color: rgb(233, 233, 233);;
-    transition: 0.8s;
 }
